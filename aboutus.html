@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Alina Tayyab</title>
+
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color: #F9F5FF;
+            color: #222;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #5A189A;
+            padding: 15px 40px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar li {
+            margin-left: 25px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover,
+        .active {
+            color: #FFD700;
+        }
+
+        /* About Section */
+        .about {
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px;
+        }
+
+        .about-box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            width: 85%;
+            display: flex;
+            gap: 30px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #5A189A;
+        }
+
+        .about-content h1 {
+            color: #5A189A;
+            margin-bottom: 15px;
+        }
+
+        .about-content h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #7B2CBF;
+        }
+
+        .about-content ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Alina Tayyab</h2>
+            <ul>
+                <li><a href="aboutus.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="about-box">
+            
+            <img src="https://static.vecteezy.com/system/resources/previews/014/194/215/original/avatar-icon-human-a-person-s-badge-social-media-profile-symbol-the-symbol-of-a-person-vector.jpg" alt="Profile Picture" class="profile-img">
+
+            <div class="about-content">
+                <h1>About Me</h1>
+                <p>
+                    Hello! I’m <strong>Alina Tayyab</strong>, an enthusiastic web development 
+                    learner who loves designing clean and modern web pages. 
+                    This portfolio shows my skills, projects, and experience.
+                </p>
+
+                <h2>Introduction</h2>
+                <ul>
+                    <li>Major : Computer science</li>
+                    <li>Semester : 1st semester</li>
+                    <li>University: Click the link below</li>
+                    <a href="https://kinnaird.edu.pk/"> KCWU </a>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

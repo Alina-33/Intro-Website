@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Alina Tayyab</title>
+
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color: #F9F5FF;
+            color: #222;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #5A189A;
+            padding: 15px 40px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar li {
+            margin-left: 25px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover,
+        .active {
+            color: #FFD700;
+        }
+
+        /* Projects Section */
+        .projects {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .projects h1 {
+            color: #5A189A;
+            margin-bottom: 30px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 25px;
+            margin: 20px auto;
+            border-radius: 12px;
+            width: 80%;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+            transition: 0.3s ease;
+            border-left: 6px solid #7B2CBF;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 22px rgba(0,0,0,0.15);
+        }
+
+        .project-card h3 {
+            color: #7B2CBF;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 15px;
+        }
+
+        /* Contact Section */
+        .projects h2 {
+            margin-top: 40px;
+            color: #5A189A;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Alina Tayyab</h2>
+            <ul>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PROJECT SECTION -->
+    <section class="projects">
+        <h1>My Projects</h1>
+
+        <div class="My Projects">
+            <h3>Work Experience</h3>
+            <p>1.AI vs Human Poster</p>
+            <p>2.Games on Scratch</p>
+            <p>3.Calculator using C++</p>
+            <p>4.Organixed events in school.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Basic Calculator</h3>
+            <p>A simple calculator built using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Landing Page UI</h3>
+            <p>Modern landing page with responsive layout and styled elements.</p>
+        </div>
+
+        <h2>Contact Details</h2>
+        <p class="contact-info"><strong>Email:</strong> alinatayyab@example.com</p>
+        <p class="contact-info"><strong>Phone:</strong> 0321-1234567</p>
+    </section>
+
+</body>
+</html>
